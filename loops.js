@@ -18,11 +18,11 @@ return 'done';
 }
 
 
-function doWhileLoop(i) {
+function doWhileLoop(array) {
   function incrementVariable() {
     i = -1;
     i = i + 1;
-    return i;
+    return array.push();
   }
   do {
     console.log("I run  once regardless.");
